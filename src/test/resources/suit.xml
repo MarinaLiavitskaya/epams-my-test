@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="suite" verbose="1">
+    <parameter name="username" value="vasili_savin@epam.com"/>
+    <parameter name="password" value="2115838mP"/>
+    <test name="Epams_Test">
+        <classes>
+            <!-- <class name="test.LinkCreationTest">
+                <methods>
+                    <include name="createShortLinkWhereTheShortLinkIsTheSameAsTheLongLink"/>
+                    <include name="createEmptyLongLinkWithoutSpecifyingShortLinkName"/>
+                    <include name="createLongLinkWithoutSpecifyingShortLinkName"/>
+                    <include name="createLongLinkWithSpecifyingShortLinkName"/>
+                    <include name="createShortLinkWithExistingShortLinkName"/>
+                    <include name="shortLinkDirectsToFullLinkAddress"/>
+                </methods>
+            </class> -->
+            <!-- <class name="test.EditLinkTest">
+                <methods>
+                    <include name="editShortLinkNameWithPositiveData"/>
+                    <include name="editLongLinkWithPositiveData"/>
+                    <include name="editExpirationDateWithPositiveData"/>
+                </methods>
+            </class> -->
+            <class name="test.SearchByShortLinkTest"/>
+            <class name="test.DeleteNotAllLinksTest"/>
+        </classes>
+    </test>
+</suite>

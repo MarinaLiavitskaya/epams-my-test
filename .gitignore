@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+/EPAMS.iml
+/.idea/
+/target/
+/EPA.MS.iml
+/src/main/java/Main.java
+/src/test/java/page/TestDriver.java
+/bin/
+/.git/
+.project
+.classpath
+test-output/
+/.settings
