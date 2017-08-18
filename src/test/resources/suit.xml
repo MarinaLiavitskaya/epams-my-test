@@ -15,13 +15,13 @@
                     <include name="shortLinkDirectsToFullLinkAddress"/>
                 </methods>
             </class>
-            <class name="test.EditLinkTest">
+            <!-- <class name="test.EditLinkTest">
                 <methods>
                     <include name="editShortLinkNameWithPositiveData"/>
                     <include name="editLongLinkWithPositiveData"/>
                     <include name="editExpirationDateWithPositiveData"/>
                 </methods>
-            </class>
+            </class> -->
             <class name="test.SearchByShortLinkTest"/>
             <class name="test.DeleteNotAllLinksTest"/>
         </classes>
