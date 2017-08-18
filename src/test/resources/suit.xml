@@ -23,7 +23,7 @@
                 </methods>
             </class> -->
             <class name="test.SearchByShortLinkTest"/>
-            <class name="test.DeleteNotAllLinksTest"/>
+<!--             <class name="test.DeleteNotAllLinksTest"/> -->
         </classes>
     </test>
 </suite>
