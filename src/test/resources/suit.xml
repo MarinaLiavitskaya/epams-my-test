@@ -5,7 +5,7 @@
     <parameter name="password" value="2115838mP"/>
     <test name="Epams_Test">
         <classes>
-            <!-- <class name="test.LinkCreationTest">
+            <class name="test.LinkCreationTest">
                 <methods>
                     <include name="createShortLinkWhereTheShortLinkIsTheSameAsTheLongLink"/>
                     <include name="createEmptyLongLinkWithoutSpecifyingShortLinkName"/>
@@ -14,7 +14,7 @@
                     <include name="createShortLinkWithExistingShortLinkName"/>
                     <include name="shortLinkDirectsToFullLinkAddress"/>
                 </methods>
-            </class> -->
+            </class>
             <!-- <class name="test.EditLinkTest">
                 <methods>
                     <include name="editShortLinkNameWithPositiveData"/>
